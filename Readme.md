@@ -13,10 +13,11 @@ our example uses the popular iris dataset. The pipeline consist of 3 steps
 
 # Pipeline
 
-The yaml file used to generate the pipeline can be found in the pipeline folder
-the src folder holds all of our code we converted to docker images used by our pipeline
+The yaml file used to generate the pipeline can be found in the pipeline folder.
 
-to make our images easy to build an push, a base image is built with all the requirements every other step in our pipline can potentially need. if anything is ommited, we can easily run a pip install on top of our base image. so you would notice that everys step in our workflow uses the base image we built.
+The src folder holds all of our code we converted to docker images used by our pipeline.
+
+To make our images easy to build and push, a base image is built with all the requirements every other step in our pipline can potentially need. if anything is ommited, we can easily run a pip install on top of our base image. so you would notice that everys step in our workflow uses the base image we built.
 
 # What do I need to run the pipeline?
 

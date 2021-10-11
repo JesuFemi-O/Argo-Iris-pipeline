@@ -7,7 +7,7 @@ our example uses the popular iris dataset. The pipeline consist of 3 steps
 
 - <b>Generate Data (preprocessing)</b>: this is the step where our data is feteched and split into train and test sets. ideally we can also do other things in this step like cleaning the data if it's not in a format we want
 
-- <b>Build Model (Model training and evaluation)</b>: in this step we use our preprocessed data from the previousstep to build a decision forest classifer. we then save the model as a pickl filed and save the test accuracy of the model. ideally we would want split this step into 2 or more steps so we can train our model in a sperate step and test the saved model in a different step
+- <b>Build Model (Model training and evaluation)</b>: in this step we use our preprocessed data from the previous step to build a decision forest classifer. we then save the model as a pickle file and save the test accuracy of the model. ideally we would want split this step into 2 or more steps so we can train our model in a sperate step and test the saved model in a different step
 
 - <b>Output Result (Result reporting)</b>: in this step we simply display the test accuracy of our model. we can potentially make other types of reports if we want. in this example things have deliberatly been keept very simple.
 
